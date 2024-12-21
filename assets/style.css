@@ -1,8 +1,11 @@
 *{
-    background-color: rgb(8, 8, 8);
     margin: 0;
     padding:0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(40deg, black, rgb(14, 37, 19));
 }
 
 header{
@@ -10,7 +13,7 @@ header{
 }
 
 header h1{
-    color: blueviolet;
+    color: rgb(10, 245, 30);
     padding: 30px 30px 15px;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -20,7 +23,7 @@ header h1{
 header p{
 color: aliceblue;
 font-size: 20px;
-padding: 0 280px;
+padding: 0 100px;
 }
 
 .flex-container{
@@ -44,19 +47,22 @@ padding: 0 280px;
 }
 
 .flex-item h2{
-    color: blueviolet;
+    background-color: black;
+    color: rgb(43, 226, 98);
     font-size: 30px;
-    border: 5px solid rgb(116, 106, 106);
+    border: 1px solid whitesmoke;
     border-radius: 10px;
     margin: 0 15px ;
+    padding-left:5px;
     position:relative;
     bottom:20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    z-index: 2;
 }
 
 .flex-item div{
     color: white;
-    background-color: blueviolet;
+    background: linear-gradient(40deg, rgb(0, 53, 11), rgb(11, 143, 17));
     margin: 10px;
     flex-grow:1;
     /*border: 10px solid black;*/
@@ -67,17 +73,15 @@ padding: 0 280px;
     padding-left: 15px;
 }
 
+
 .p-style{
-    color: blueviolet;
+    color: rgb(43, 194, 66);
     text-align: center;
     font-size: 18px;
 }
 
-.flex-item p{
-    background-color: transparent;
-    line-height: 1.5;
-    
-
+.flex-item pre {
+    color: white;
 }
 
 footer{
