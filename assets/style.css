@@ -20,15 +20,14 @@ header h1{
 header p{
 color: aliceblue;
 font-size: 20px;
-margin-bottom:5ls
-0px;
+padding: 0 280px;
 }
 
 .flex-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin:20px;
+    margin: 55px 40px 0 40px;
 }
 
 .flex-item{
@@ -65,7 +64,7 @@ margin-bottom:5ls
     display: flex;
     justify-content: start;
     align-items: center;
-    
+    padding-left: 15px;
 }
 
 .p-style{
@@ -76,6 +75,8 @@ margin-bottom:5ls
 
 .flex-item p{
     background-color: transparent;
+    line-height: 1.5;
+    
 
 }
 
@@ -83,6 +84,7 @@ footer{
     color: white;
     text-align: center;
     font-size: 40px;
+    margin-top:40px;
 }
 
 @media screen and (max-width :991px){
